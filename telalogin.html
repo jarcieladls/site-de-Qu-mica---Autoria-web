@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styleLogin.css">
+  <title>Tela Login</title>
+</head>
+
+<body>
+  <header>
+    <div>
+      <h1>
+        <img src="img/logo ifrn.jpg" alt="logo">
+        Química I
+      </h1>
+      <div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <div class="search-container">
+              <input type="search" id="search-bar" placeholder="Pesquisar...">
+              <button type="submit">Pesquisar</button>
+            </div>
+          </ul>
+        </nav>
+      </div>
+
+    </div>
+
+  </header>
+  <main>
+    <h1>Bem-vindo à área virtual da disciplina de Química I </h1>
+    <img src="img/simbolo quimica.png" alt="Imagem de Química">
+    <form action="process_login.php" method="post">
+      <label for="username">Usuário:</label>
+      <input type="text" id="username" name="username" required>
+      <br>
+      <label for="password">Senha:</label>
+      <input type="password" id="password" name="password" required>
+      <br>
+      <button type="submit">Entrar</button>
+    </form>
+  </main>
+</body>
+
+</html>
