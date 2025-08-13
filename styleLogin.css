@@ -83,7 +83,7 @@ nav ul li a:hover {
 
 main {
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: 100px;
+  font-weight: 100;
   align-items: center;
   text-align: center;
   margin-top: 50px;
@@ -96,12 +96,11 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #2E67EF color: blueviolet;
   padding: 14px;
   margin-top: 300px;
 }
 
-div>img {
+div > img {
   width: 70px;
   margin-right: 120px;
 }
