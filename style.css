@@ -23,7 +23,7 @@
         border-radius: 65px;
     }
 
-    header>div g {
+    header > div {
         display: flex;
         width: 1200px;
         justify-content: space-between;
@@ -90,7 +90,7 @@ footer img{
 
     button {
         width: 195px;
-        border-radius: 10% mar
+        border-radius: 10%;
     }
 
     footer {
